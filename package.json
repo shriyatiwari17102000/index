@@ -1,0 +1,23 @@
+{
+  "name": "my_form",
+  "version": "1.0.0",
+  "description": "Index3",
+  "main": "Index3.js",
+  "scripts": {
+    "start": "node Index3.js",
+    "server": "nodemon Index3.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "shriya",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "concurrently": "^7.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.2",
+    "nodemailer": "^6.7.7",
+    "nodemon": "^2.0.19"
+  }
+}
